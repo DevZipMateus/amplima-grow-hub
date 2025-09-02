@@ -1,5 +1,6 @@
 import Header from "@/components/Header";
 import HeroSection from "@/components/HeroSection";
+import EgestorERP from "@/components/EgestorERP";
 import AboutSection from "@/components/AboutSection";
 import ServicesSection from "@/components/ServicesSection";
 import ProfipeSection from "@/components/ProfipeSection";
@@ -15,6 +16,7 @@ const Index = () => {
       
       <main>
         <HeroSection />
+        <EgestorERP />
         <AboutSection />
         <ServicesSection />
         <ProfipeSection />

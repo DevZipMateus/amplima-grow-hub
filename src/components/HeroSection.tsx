@@ -7,8 +7,8 @@ const HeroSection = () => {
       {/* Background image */}
       <div className="absolute inset-0">
         <img 
-          src="/lovable-uploads/115776e7-8703-4ff9-a455-0b845c9bec96.png"
-          alt="Equipe de consultoria trabalhando com análise de dados e planejamento estratégico"
+          src="/lovable-uploads/c69d4560-76a3-4f60-b7e6-71ba35dd4d08.png"
+          alt="Profissional de consultoria planejando estratégias de crescimento empresarial"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-hero/80" />

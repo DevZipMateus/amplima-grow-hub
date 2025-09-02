@@ -4,15 +4,6 @@ import { Menu, X, Phone, Mail } from "lucide-react";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [isScrolled, setIsScrolled] = useState(false);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      setIsScrolled(window.scrollY > 50);
-    };
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
 
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
@@ -23,44 +14,7 @@ const Header = () => {
   };
 
   return (
-    <>
-      {/* Top contact bar */}
-      <div className="bg-gradient-primary text-white py-2">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center text-sm">
-          <div className="flex items-center gap-4">
-            <a
-              href="tel:6399354511"
-              className="flex items-center gap-1 hover:text-primary-foreground transition-smooth"
-            >
-              <Phone size={14} />
-              (63) 9 9935-4511
-            </a>
-            <a
-              href="mailto:anamarciaperes73@gmail.com"
-              className="flex items-center gap-1 hover:text-primary-foreground transition-smooth"
-            >
-              <Mail size={14} />
-              anamarciaperes73@gmail.com
-            </a>
-          </div>
-          <div className="hidden sm:flex items-center">
-            <a
-              href="https://instagram.com/anamarciaperes73"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-primary-foreground transition-smooth"
-            >
-              @anamarciaperes73
-            </a>
-          </div>
-        </div>
-      </div>
-
-      {/* Main header */}
-      <header
-        className="fixed top-0 left-0 right-0 z-50 bg-white shadow-soft transition-smooth"
-        style={{ marginTop: "40px" }}
-      >
+    <header className="fixed top-0 left-0 right-0 z-50 bg-white shadow-soft transition-smooth">
         <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             {/* Logo */}
@@ -174,7 +128,6 @@ const Header = () => {
           </div>
         )}
       </header>
-    </>
   );
 };
 

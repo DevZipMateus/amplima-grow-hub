@@ -58,10 +58,8 @@ const Header = () => {
 
       {/* Main header */}
       <header
-        className={`fixed top-0 left-0 right-0 z-50 transition-smooth ${
-          isScrolled ? "bg-white/95 backdrop-blur-md shadow-soft" : "bg-transparent"
-        }`}
-        style={{ marginTop: isScrolled ? "0" : "40px" }}
+        className="fixed top-0 left-0 right-0 z-50 bg-white shadow-soft transition-smooth"
+        style={{ marginTop: "40px" }}
       >
         <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">

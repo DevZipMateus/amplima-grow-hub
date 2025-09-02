@@ -86,14 +86,12 @@ const AboutSection = () => {
           <div className="relative animate-fade-in-up" style={{animationDelay: '0.2s'}}>
             <div className="relative">
               {/* Main image container */}
-              <div className="bg-gradient-primary rounded-3xl p-8 shadow-elegant">
-                <div className="w-full h-64 bg-white/20 rounded-2xl flex items-center justify-center backdrop-blur-sm">
-                  <div className="text-center text-white/80">
-                    <Users size={48} className="mx-auto mb-4" />
-                    <h3 className="text-xl font-semibold mb-2">Consultoria Especializada</h3>
-                    <p>Apoiando pequenos empresários desde 2019</p>
-                  </div>
-                </div>
+              <div className="bg-gradient-primary rounded-3xl p-4 shadow-elegant">
+                <img 
+                  src="/lovable-uploads/ee5e8107-6bb9-42e1-a12a-4357b6b9dc6a.png"
+                  alt="Equipe da Amplima Consultoria trabalhando em reunião de planejamento estratégico"
+                  className="w-full h-64 object-cover rounded-2xl"
+                />
               </div>
 
               {/* Floating stats */}

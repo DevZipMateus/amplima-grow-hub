@@ -25,49 +25,51 @@ const HeroSection = () => {
           
           {/* Content */}
           <div className="animate-fade-in-up">
-            <div className="mb-6">
-              <span className="inline-block px-4 py-2 bg-white/20 text-white rounded-full text-sm font-medium backdrop-blur-sm">
-                Consultoria Especializada
-              </span>
-            </div>
-            
-            <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">
-              Organize seu negócio e 
-              <span className="text-gradient-primary"> alcance melhores resultados</span>
-            </h1>
-            
-            <p className="text-xl text-white/90 mb-8 leading-relaxed max-w-lg">
-              Apoiamos pequenos empresários com consultoria em liderança, gestão financeira e planejamento estratégico para decisões mais seguras e lucratividade.
-            </p>
-
-            <div className="flex flex-col sm:flex-row gap-4 mb-12">
-              <Button variant="hero" size="lg" asChild className="group">
-                <a href="https://wa.me/5563999354511">
-                  Quero uma consultoria
-                  <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-smooth" />
-                </a>
-              </Button>
+            <div className="bg-black/30 backdrop-blur-sm rounded-3xl p-8 border border-white/10">
+              <div className="mb-6">
+                <span className="inline-block px-4 py-2 bg-white/20 text-white rounded-full text-sm font-medium backdrop-blur-sm">
+                  Consultoria Especializada
+                </span>
+              </div>
               
-              <Button variant="outline-light" size="lg" asChild>
-                <a href="#sobre">
-                  Conhecer a Amplima
-                </a>
-              </Button>
-            </div>
+              <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">
+                Organize seu negócio e 
+                <span className="text-gradient-primary"> alcance melhores resultados</span>
+              </h1>
+              
+              <p className="text-xl text-white/90 mb-8 leading-relaxed max-w-lg">
+                Apoiamos pequenos empresários com consultoria em liderança, gestão financeira e planejamento estratégico para decisões mais seguras e lucratividade.
+              </p>
 
-            {/* Stats */}
-            <div className="grid grid-cols-3 gap-6">
-              <div className="text-center">
-                <div className="text-2xl font-bold text-white mb-1">+50</div>
-                <div className="text-white/80 text-sm">Empresários atendidos</div>
+              <div className="flex flex-col sm:flex-row gap-4 mb-12">
+                <Button variant="hero" size="lg" asChild className="group">
+                  <a href="https://wa.me/5563999354511">
+                    Quero uma consultoria
+                    <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-smooth" />
+                  </a>
+                </Button>
+                
+                <Button variant="outline-light" size="lg" asChild>
+                  <a href="#sobre">
+                    Conhecer a Amplima
+                  </a>
+                </Button>
               </div>
-              <div className="text-center">
-                <div className="text-2xl font-bold text-white mb-1">5+</div>
-                <div className="text-white/80 text-sm">Anos de experiência</div>
-              </div>
-              <div className="text-center">
-                <div className="text-2xl font-bold text-white mb-1">100%</div>
-                <div className="text-white/80 text-sm">Foco em resultados</div>
+
+              {/* Stats */}
+              <div className="grid grid-cols-3 gap-6">
+                <div className="text-center">
+                  <div className="text-2xl font-bold text-white mb-1">+50</div>
+                  <div className="text-white/80 text-sm">Empresários atendidos</div>
+                </div>
+                <div className="text-center">
+                  <div className="text-2xl font-bold text-white mb-1">5+</div>
+                  <div className="text-white/80 text-sm">Anos de experiência</div>
+                </div>
+                <div className="text-center">
+                  <div className="text-2xl font-bold text-white mb-1">100%</div>
+                  <div className="text-white/80 text-sm">Foco em resultados</div>
+                </div>
               </div>
             </div>
           </div>

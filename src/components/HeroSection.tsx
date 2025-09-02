@@ -4,8 +4,15 @@ import { ArrowRight, Users, TrendingUp, Target } from "lucide-react";
 const HeroSection = () => {
   return (
     <section id="inicio" className="min-h-screen relative overflow-hidden">
-      {/* Background gradient */}
-      <div className="absolute inset-0 bg-gradient-hero" />
+      {/* Background image */}
+      <div className="absolute inset-0">
+        <img 
+          src="/lovable-uploads/115776e7-8703-4ff9-a455-0b845c9bec96.png"
+          alt="Equipe de consultoria trabalhando com análise de dados e planejamento estratégico"
+          className="w-full h-full object-cover"
+        />
+        <div className="absolute inset-0 bg-gradient-hero/80" />
+      </div>
       
       {/* Animated background elements */}
       <div className="absolute inset-0">

@@ -11,7 +11,7 @@ const Footer = () => {
             <img
               src="/lovable-uploads/4c990c9b-a3b2-4e9d-9d30-233fe423761c.png"
               alt="Amplima Consultoria"
-              className="h-12 w-auto mb-4 brightness-0 invert"
+              className="h-8 w-auto mb-4"
             />
             <p className="text-white/80 mb-6 leading-relaxed">
               Consultoria organizacional especializada em ajudar pequenos empresários a organizarem seus negócios e alcançarem melhores resultados.

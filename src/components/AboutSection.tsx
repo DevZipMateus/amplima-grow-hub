@@ -10,24 +10,17 @@ const AboutSection = () => {
           <div className="animate-fade-in-up">
             <div className="mb-6">
               <span className="text-primary font-semibold text-sm uppercase tracking-wide">
-                Sobre a Amplima Consultoria
+                Quem Somos
               </span>
             </div>
             
             <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6 leading-tight">
-              Apoiamos pequenos empresários a 
-              <span className="text-gradient-primary"> se organizarem</span> e alcançarem melhores resultados
+              Sobre a 
+              <span className="text-gradient-primary"> Amplima Consultoria</span>
             </h2>
             
             <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-              A Amplima Consultoria é um projeto dedicado a transformar a gestão de pequenas empresas. 
-              Com experiência prática no comércio e sólida formação em marketing e gestão financeira, 
-              oferecemos orientação especializada em liderança, gestão financeira e planejamento estratégico.
-            </p>
-
-            <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-              Ajudamos os empreendedores a entenderem seus números, aumentarem a lucratividade e 
-              tomarem decisões estratégicas com mais segurança e clareza.
+              Na Amplima Consultoria, ajudamos pequenos empresários a organizar suas finanças e transformar números em decisões inteligentes. Nossa missão é dar clareza sobre o fluxo de dinheiro do seu negócio, ensinar precificação correta, gestão de descontos e cálculo seguro do pró-labore, para que você possa crescer com confiança e segurança.
             </p>
 
             {/* Features grid */}

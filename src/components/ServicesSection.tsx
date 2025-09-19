@@ -4,38 +4,38 @@ import { Users, DollarSign, Target, TrendingUp, UserCheck, ArrowRight } from "lu
 
 const services = [
   {
-    icon: Users,
-    title: "Consultoria em Liderança e Gestão Empresarial",
-    description: "Orientação para desenvolver habilidades de liderança e organizar processos internos para uma gestão mais eficiente.",
-    features: ["Desenvolvimento de liderança", "Organização de processos", "Gestão de equipes", "Cultura organizacional"],
+    icon: DollarSign,
+    title: "Fechamento de mês",
+    description: "Tenha total controle sobre entradas, saídas e saldo do seu negócio.",
+    features: ["Controle de entradas", "Gestão de saídas", "Análise de saldo", "Relatórios mensais"],
     color: "primary"
   },
   {
-    icon: DollarSign,
-    title: "Gestão Financeira",
-    description: "Planejamento financeiro completo, controle de fluxo de caixa e análise detalhada de despesas e receitas.",
-    features: ["Planejamento financeiro", "Controle de fluxo de caixa", "Análise de custos", "Relatórios gerenciais"],
+    icon: Target,
+    title: "Precificação inteligente",
+    description: "Defina preços justos que garantam lucro e competitividade.",
+    features: ["Análise de custos", "Margem de lucro", "Competitividade", "Estratégias de preços"],
     color: "secondary"
   },
   {
-    icon: Target,
-    title: "Planejamento Estratégico",
-    description: "Auxílio na definição de metas claras e estratégias eficazes para crescimento sustentável da empresa.",
-    features: ["Definição de metas", "Análise de mercado", "Estratégias de crescimento", "Indicadores de performance"],
+    icon: TrendingUp,
+    title: "Gestão de descontos",
+    description: "Saiba quando e quanto conceder sem comprometer o resultado.",
+    features: ["Política de descontos", "Impacto no lucro", "Negociação estratégica", "Controle de margens"],
     color: "accent"
   },
   {
-    icon: TrendingUp,
-    title: "Programa Profipe",
-    description: "Programa especializado de gestão financeira para pequenos empresários, ensinando a analisar resultados e aumentar eficiência.",
-    features: ["Controle financeiro", "Análise de resultados", "Ferramentas práticas", "Acompanhamento contínuo"],
+    icon: Users,
+    title: "Cálculo do pró-labore",
+    description: "Retire do negócio o que é justo, sem prejudicar a saúde financeira da empresa.",
+    features: ["Retirada segura", "Saúde financeira", "Planejamento pessoal", "Sustentabilidade"],
     color: "primary"
   },
   {
     icon: UserCheck,
-    title: "Acompanhamento Personalizado",
-    description: "Suporte individualizado e contínuo para empresários que precisam de orientação prática no dia a dia do negócio.",
-    features: ["Mentoria individual", "Suporte contínuo", "Orientação prática", "Resolução de problemas"],
+    title: "Planejamento financeiro personalizado",
+    description: "Estratégias práticas para organizar e crescer seu negócio.",
+    features: ["Estratégias personalizadas", "Crescimento sustentável", "Organização financeira", "Metas realistas"],
     color: "secondary"
   }
 ];
@@ -51,8 +51,8 @@ const ServicesSection = () => {
             Nossos Serviços
           </span>
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6 leading-tight">
-            Soluções completas para o 
-            <span className="text-gradient-primary"> seu negócio crescer</span>
+            O que 
+            <span className="text-gradient-primary"> oferecemos</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
             Oferecemos consultoria especializada em todas as áreas críticas para o sucesso 

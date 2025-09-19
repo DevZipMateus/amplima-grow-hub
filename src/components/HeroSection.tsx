@@ -33,18 +33,18 @@ const HeroSection = () => {
               </div>
               
               <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">
-                Organize seu negócio e 
-                <span className="text-gradient-primary"> alcance melhores resultados</span>
+                Controle seu negócio. 
+                <span className="text-gradient-primary"> Domine suas finanças.</span>
               </h1>
               
               <p className="text-xl text-white/90 mb-8 leading-relaxed max-w-lg">
-                Apoiamos pequenos empresários com consultoria em liderança, gestão financeira e planejamento estratégico para decisões mais seguras e lucratividade.
+                Consultoria financeira para pequenos empresários que querem entender para onde seu dinheiro está indo, fechar o mês com segurança e tomar decisões estratégicas.
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4 mb-12">
                 <Button variant="hero" size="lg" asChild className="group">
                   <a href="https://wa.me/5563999354511">
-                    Quero uma consultoria
+                    Agende sua consultoria agora
                     <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-smooth" />
                   </a>
                 </Button>

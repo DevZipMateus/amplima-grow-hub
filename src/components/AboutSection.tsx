@@ -1,4 +1,5 @@
 import { Users, Award, Target, Heart } from "lucide-react";
+import ImageCarousel from "./ImageCarousel";
 
 const AboutSection = () => {
   return (
@@ -77,35 +78,7 @@ const AboutSection = () => {
 
           {/* Visual element */}
           <div className="relative animate-fade-in-up" style={{animationDelay: '0.2s'}}>
-            <div className="relative">
-              {/* Main image container */}
-              <div className="bg-gradient-primary rounded-3xl p-4 shadow-elegant">
-                <img 
-                  src="/lovable-uploads/ee5e8107-6bb9-42e1-a12a-4357b6b9dc6a.png"
-                  alt="Equipe da Amplima Consultoria trabalhando em reunião de planejamento estratégico"
-                  className="w-full h-64 object-cover rounded-2xl"
-                />
-              </div>
-
-              {/* Floating stats */}
-              <div className="absolute -bottom-8 -left-8 bg-white rounded-2xl shadow-elegant p-6 border">
-                <div className="text-center">
-                  <div className="text-2xl font-bold text-primary mb-1">+50</div>
-                  <div className="text-muted-foreground text-sm">Empresários atendidos</div>
-                </div>
-              </div>
-
-              <div className="absolute -top-8 -right-8 bg-white rounded-2xl shadow-elegant p-6 border">
-                <div className="text-center">
-                  <div className="text-2xl font-bold text-secondary mb-1">100%</div>
-                  <div className="text-muted-foreground text-sm">Foco em resultados</div>
-                </div>
-              </div>
-
-              {/* Background elements */}
-              <div className="absolute -top-12 -left-12 w-24 h-24 bg-primary/20 rounded-full blur-2xl animate-pulse-slow" />
-              <div className="absolute -bottom-12 -right-12 w-32 h-32 bg-secondary/20 rounded-full blur-2xl animate-pulse-slow" style={{animationDelay: '1.5s'}} />
-            </div>
+            <ImageCarousel />
           </div>
         </div>
       </div>

@@ -17,6 +17,10 @@ const ImageCarousel = () => {
     {
       src: "/lovable-uploads/natuflora.jpg",
       alt: "Natuflora - Loja de produtos naturais com controle financeiro eficiente"
+    },
+    {
+      src: "/lovable-uploads/elegance-cabeleireiros.jpg",
+      alt: "Elegance Cabeleireiros - Salão de beleza com planejamento financeiro inteligente"
     }
   ];
 

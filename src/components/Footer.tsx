@@ -112,7 +112,7 @@ const Footer = () => {
                 <MapPin size={18} className="flex-shrink-0 mt-0.5" />
                 <div>
                   Av Cônego João Lima 289<br />
-                  Palmas - TO
+                  Araguaína - TO
                 </div>
               </div>
             </div>

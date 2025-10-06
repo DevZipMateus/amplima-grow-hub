@@ -81,7 +81,7 @@ const ContactSection = () => {
                       <h3 className="font-semibold text-foreground mb-2">Endereço</h3>
                       <p className="text-muted-foreground">
                         Av Cônego João Lima 289<br />
-                        Palmas - TO
+                        Araguaína - TO
                       </p>
                     </div>
                   </div>
@@ -206,11 +206,11 @@ const ContactSection = () => {
                     <h3 className="font-semibold text-foreground mb-2">Localização</h3>
                     <p className="text-muted-foreground">
                       Av Cônego João Lima 289<br />
-                      Palmas - TO
+                      Araguaína - TO
                     </p>
                     <Button variant="outline" className="mt-4" asChild>
                       <a 
-                        href="https://maps.google.com/?q=Av+Cônego+João+Lima+289+Palmas+TO" 
+                        href="https://maps.google.com/?q=Av+Cônego+João+Lima+289+Araguaína+TO" 
                         target="_blank"
                         rel="noopener noreferrer"
                       >

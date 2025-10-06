@@ -108,13 +108,6 @@ const Footer = () => {
                   anamarciaperes73@gmail.com
                 </a>
               </div>
-              <div className="flex items-start gap-3">
-                <MapPin size={18} className="flex-shrink-0 mt-0.5" />
-                <div>
-                  Av Cônego João Lima 289<br />
-                  Araguaína - TO
-                </div>
-              </div>
             </div>
           </div>
         </div>

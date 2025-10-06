@@ -210,7 +210,7 @@ const ContactSection = () => {
                     </p>
                     <Button variant="outline" className="mt-4" asChild>
                       <a 
-                        href="https://share.google/38V4pT9NUJQqqfpy2" 
+                        href="https://www.google.com/maps/place/Av.+C%C3%B4nego+Jo%C3%A3o+Lima,+289+-+Araguaina,+TO" 
                         target="_blank"
                         rel="noopener noreferrer"
                       >

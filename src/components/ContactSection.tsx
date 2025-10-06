@@ -70,24 +70,6 @@ const ContactSection = () => {
                 </CardContent>
               </Card>
 
-              {/* Address */}
-              <Card className="border-0 shadow-soft bg-white/80 backdrop-blur-sm hover:shadow-elegant transition-bounce">
-                <CardContent className="p-6">
-                  <div className="flex items-start gap-4">
-                    <div className="w-12 h-12 bg-accent/10 rounded-xl flex items-center justify-center flex-shrink-0">
-                      <MapPin className="text-accent" size={24} />
-                    </div>
-                    <div>
-                      <h3 className="font-semibold text-foreground mb-2">Endereço</h3>
-                      <p className="text-muted-foreground">
-                        Av Cônego João Lima 289<br />
-                        Araguaína - TO
-                      </p>
-                    </div>
-                  </div>
-                </CardContent>
-              </Card>
-
               {/* Instagram */}
               <Card className="border-0 shadow-soft bg-white/80 backdrop-blur-sm hover:shadow-elegant transition-bounce">
                 <CardContent className="p-6">
@@ -197,30 +179,6 @@ const ContactSection = () => {
               </CardContent>
             </Card>
 
-            {/* Map */}
-            <Card className="border-0 shadow-soft bg-white/80 backdrop-blur-sm animate-fade-in-up" style={{animationDelay: '0.4s'}}>
-              <CardContent className="p-0">
-                <div className="h-80 bg-muted rounded-lg flex items-center justify-center">
-                  <div className="text-center">
-                    <MapPin className="text-primary mx-auto mb-4" size={48} />
-                    <h3 className="font-semibold text-foreground mb-2">Localização</h3>
-                    <p className="text-muted-foreground">
-                      Av Cônego João Lima 289<br />
-                      Araguaína - TO
-                    </p>
-                    <Button variant="outline" className="mt-4" asChild>
-                      <a 
-                        href="https://www.google.com/maps/place/Av.+C%C3%B4nego+Jo%C3%A3o+Lima,+289+-+Araguaina,+TO" 
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        Ver no Google Maps
-                      </a>
-                    </Button>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
           </div>
         </div>
       </div>

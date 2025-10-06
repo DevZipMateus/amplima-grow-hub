@@ -22,7 +22,7 @@ const Header = () => {
               <img
                 src="/lovable-uploads/4c990c9b-a3b2-4e9d-9d30-233fe423761c.png"
                 alt="Amplima Consultoria - Consultoria Organizacional"
-                className="h-8 w-auto transition-smooth hover:scale-105"
+                className="h-12 w-auto transition-smooth hover:scale-105"
               />
             </div>
 
